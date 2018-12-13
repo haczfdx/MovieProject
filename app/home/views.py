@@ -57,3 +57,9 @@ def moviecol():
     """会员界面"""
     return render_template("home/moviecol.html")
 
+
+@home.route("/search/")
+def search():
+    """会员界面"""
+    return render_template("home/search.html")
+
